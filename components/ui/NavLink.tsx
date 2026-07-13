@@ -3,13 +3,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { MouseEventHandler } from 'react';
 
 interface NavLinkProps {
   href: string;
   children: React.ReactNode;
+  onClick?: MouseEventHandler;
 }
 
-export default function NavLink({ href, children }: NavLinkProps) {
+export default function NavLink({ href, children, onClick }: NavLinkProps) {
   const pathname = usePathname();
   
   // Check if the current route matches the link's destination
@@ -17,6 +19,7 @@ export default function NavLink({ href, children }: NavLinkProps) {
 
   return (
     <Link 
+      onClick={onClick}
       href={href}
       className={`
         font-display font-bold tracking-tight inline-block transition-all duration-300

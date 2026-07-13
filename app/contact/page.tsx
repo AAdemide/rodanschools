@@ -130,7 +130,7 @@ export default function Contact() {
 
             {/* Tertiary Red Card - Triggers Default Email Client */}
             <a 
-              href="mailto:admissions@rodanschool.com"
+              href="mailto:contactus@rodanschools.com"
               className="block cursor-pointer bg-tertiary-container text-on-tertiary rounded-[2rem] p-8 shadow-lg transform transition-transform hover:-translate-y-2 hover:rotate-1 relative overflow-hidden group"
             >
               <div className="absolute -right-8 -bottom-8 w-32 h-32 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
@@ -141,7 +141,7 @@ export default function Contact() {
                 Email Us
               </h3>
               <p className="font-body-lg text-[20px] leading-relaxed font-light">
-                admissions@rodanschool.com
+                contactus@rodanschools.com
               </p>
               <p className="font-body-md mt-2 opacity-80">
                 We aim to reply quickly

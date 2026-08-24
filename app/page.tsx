@@ -6,10 +6,10 @@ import EventList from "@/components/EventList";
 
 // --- DATA ARRAYS (Keeps JSX DRY) ---
 const STATS = [
-  { value: "25+", label: "YEARS OF ACADEMIC EXCELLENCE" },
-  { value: "1,200+", label: "PROUD GRADUATES" },
-  { value: "45+", label: "EXTRACURRICULAR ACTIVITIES" },
-  { value: "85", label: "DEDICATED FACULTY MEMBERS" },
+  { value: "26", label: "YEARS OF ACADEMIC EXCELLENCE" },
+  { value: "370+", label: "PROUD GRADUATES" },
+  { value: "12", label: "EXTRACURRICULAR ACTIVITIES" },
+  { value: "42", label: "DEDICATED FACULTY MEMBERS" },
 ];
 
 const FEATURES = [

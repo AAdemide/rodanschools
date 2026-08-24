@@ -39,7 +39,7 @@ export default function Subheading({ title }: SubheadingProps) {
     // 1. Attach the ref to the wrapper so the observer can watch it
     <div ref={headingRef} className="relative flex items-center mb-12 -ml-6 overflow-hidden pl-6 pr-8 py-2">
       <h2 
-        className={`bg-primary-container text-white font-display font-extrabold text-3xl py-3 pl-6 pr-12 relative inline-flex items-center shadow-lg origin-left whitespace-nowrap opacity-0 ${
+        className={`bg-primary-container text-white font-display font-extrabold text-[clamp(1rem,3vw,2.5rem)] py-3 pl-6 pr-12 relative inline-flex items-center shadow-lg origin-left whitespace-nowrap opacity-0 ${
           // 2. Only apply the animation class when the observer says it is visible
           isVisible ? 'animate-roll-out' : ''
         }`}
